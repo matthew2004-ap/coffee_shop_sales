@@ -1,5 +1,5 @@
 --- Analyzing coffee_shop_sales(product_type) using store_location______:using the case statement
----This is how to use "CASE STATEMENT" 
+---This is how to use "CASE" 
 SELECT 
       product_category,
       product_type,
@@ -254,8 +254,8 @@ WHERE store_id IN (
       store_id
    FROM
       coffee_shop_sales
-   --WHERE
-      --Product_category = 'Coffee'
+   WHERE
+      Product_category = 'Coffee'
    ORDER BY
    store_id 
 );
